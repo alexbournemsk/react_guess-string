@@ -1,8 +1,8 @@
 import React from "react";
-import LevelInfo from "../components/level-info";
-import ScoreBlock from "../components/score-block";
-import Progress from "../components/progress";
-import PlayButton from "../components/play-button";
+import LevelInfo from "./level-info";
+import ScoreBlock from "./score-block";
+import Progress from "./progress";
+import PlayButton from "./play-button";
 import { Link } from "react-router-dom";
 
 
