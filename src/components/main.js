@@ -1,8 +1,9 @@
 import React from "react";
-import LevelInfo from "./level-info";
-import ScoreBlock from "./score-block";
-import Progress from "./progress";
-import PlayButton from "./play-button";
+import LevelInfo from "../components/level-info";
+import ScoreBlock from "../components/score-block";
+import Progress from "../components/progress";
+import PlayButton from "../components/play-button";
+import { Link } from "react-router-dom";
 
 
 function Main() {
@@ -12,7 +13,9 @@ function Main() {
       <ScoreBlock />
       <Progress />
       <PlayButton />
-
+      <Link to="/menu" title="/menu">
+        Back to menu
+      </Link>{" "}
 
       <div id='answer'></div>
 
