@@ -7,7 +7,7 @@ function Menu() {
   return (
     <div class='menu-container'>
       <Link to="/main" title="/main">
-        <StartButton />
+        <StartButton/>
       </Link>
     </div>
   )

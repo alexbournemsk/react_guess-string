@@ -6,16 +6,19 @@ import PlayButton from "./play-button";
 import { Link } from "react-router-dom";
 
 
-function Main() {
+function Main(props) {
   return (
     <div class='container'>
+      {/* {props.match.params.year} */}
+
+      <Link to="/" title="/">
+        ←
+      </Link>
       <LevelInfo />
       <ScoreBlock />
       <Progress />
       <PlayButton />
-      <Link to="/menu" title="/menu">
-        Back to menu
-      </Link>{" "}
+
 
       <div id='answer'></div>
 
